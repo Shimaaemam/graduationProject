@@ -1,0 +1,97 @@
+
+
+.input-classes {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #d1d5db;
+    outline: none;
+}
+
+.input-classes:focus {
+    ring: 2;
+    ring-color: #22c55e;
+}
+
+.input-error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.button-classes {
+    width: 100%;
+    padding: 1rem;
+    background-color: #d1d5db;
+    color: #065f46;
+    border-radius: 0.5rem;
+}
+
+.button-classes:hover {
+    background-color: #9ca3af;
+}
+
+.signup-form-container {
+    background-color: #065f46;
+    padding: 2rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    width : 30rem;
+}
+
+.signup-form-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.form-space {
+    margin-bottom: 1rem;
+}
+
+.signup-form-text {
+    margin-top: 1rem;
+    color: white;
+}
+
+.signup-form-link {
+    color: #fbbf24;
+}
+
+.plant-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.plant-image {
+    width: 12rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.plant-image-header {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.signup-page-container {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
